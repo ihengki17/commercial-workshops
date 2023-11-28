@@ -531,7 +531,7 @@ SELECT * FROM STOCKS_ENRICHED
 | input message format               | AVRO                         	|
 | gcp credentials file               | Will be provided at workshop     |
 | project id	                     | Will be provided at workshop 	|
-| dataset		             | jlam_ms_workshop1 		|
+| dataset		             | workshop_gcp_2023 		|
 | auto create table                  | true			 	|
 | max poll interval (ms) 	     | 60000                         	|
 | max poll records		     | 10                         	|
