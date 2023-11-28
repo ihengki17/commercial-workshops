@@ -245,6 +245,8 @@ The next step is to produce sample data using the Datagen Source connector. You 
 </div>
 click the show more option to search the **Stocks Trades**
 
+
+
 8. Review the output again and then select **Launch**.
 
 > **Note:** It may take a few moments for the connectors to launch. Check the status and when both are ready, the status should show *running*. <br> <div align="center"><img src="images/running-connectors.png" width=75% height=75%></div>
