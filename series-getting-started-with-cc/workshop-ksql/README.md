@@ -240,10 +240,10 @@ The next step is to produce sample data using the Datagen Source connector. You 
 
 <br>
 
+click the show more option to search the **Stocks Trades**
 <div align="center" padding=25px>
     <img src="images/create-conn-5.png" width=75% height=75%>
 </div>
-click the show more option to search the **Stocks Trades**
 
 
 
