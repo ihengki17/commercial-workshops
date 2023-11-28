@@ -173,7 +173,13 @@ The next step is to produce sample data using the Datagen Source connector. You 
     <img src="images/connectors.png" width=75% height=75%>
 </div>
 
-2. Enter the following configuration details. The remaining fields can be left blank.
+2. Select the **Additional configuration** to launch our own configuration.
+
+<div align="center" padding=25px>
+    <img src="images/skip-tutorial-connector.png" width=75% height=75%>
+</div>
+
+3. Enter the following configuration details. The remaining fields can be left blank.
 
 <div align="center">
 
@@ -191,16 +197,32 @@ The next step is to produce sample data using the Datagen Source connector. You 
 
 <br>
 
-3. Click on **Next**.
-4. Before launching the connector, you should see something similar to the following. If everything looks similar, select **Launch**. 
+<div align="center" padding=25px>
+    <img src="images/create-conn-1.png" width=75% height=75%>
+</div>
+
+<div align="center" padding=25px>
+    <img src="images/create-conn-2.png" width=75% height=75%>
+</div>
+
+<div align="center" padding=25px>
+    <img src="images/create-conn-3.png" width=75% height=75%>
+</div>
+
+<div align="center" padding=25px>
+    <img src="images/create-conn-4.png" width=75% height=75%>
+</div>
+
+4. Click on **Next**.
+5. Before launching the connector, you should see something similar to the following. If everything looks similar, select **Launch**. 
 
 <div align="center" padding=25px>
     <img src="images/add-datagen-conn.png" width=50% height=50%>
 </div>
 
-5. Next, create the second connector that will send data to **stocks_topic**. Click on **+ Add Connector** and then the **datagen Source** icon again. 
+6. Next, create the second connector that will send data to **stocks_topic**. Click on **+ Add Connector** and then the **datagen Source** icon again. 
 
-6. Enter the following configuration details. The remaining fields can be left blank. 
+7. Enter the following configuration details. The remaining fields can be left blank. 
 
 <div align="center">
 
@@ -211,14 +233,19 @@ The next step is to produce sample data using the Datagen Source connector. You 
 | api secret                         | [*from step 5* ](#step-5)    |
 | topic                              | stocks_topic                 |
 | output message format              | JSON                         |
-| quickstart                         | STOCKS                       |
+| quickstart                         | STOCKS_TRADES                |
 | max interval between messages (ms) | 1000                         |
 | tasks                              | 1                            |
 </div>
 
-<br> 
+<br>
 
-7. Review the output again and then select **Launch**.
+<div align="center" padding=25px>
+    <img src="images/create-conn-5.png" width=75% height=75%>
+</div>
+click the show more option to search the **Stocks Trades**
+
+8. Review the output again and then select **Launch**.
 
 > **Note:** It may take a few moments for the connectors to launch. Check the status and when both are ready, the status should show *running*. <br> <div align="center"><img src="images/running-connectors.png" width=75% height=75%></div>
 
