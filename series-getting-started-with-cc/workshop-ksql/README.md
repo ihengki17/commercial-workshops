@@ -173,7 +173,7 @@ The next step is to produce sample data using the Datagen Source connector. You 
     <img src="images/connectors.png" width=75% height=75%>
 </div>
 
-2. Select the **Additional configuration** to launch our own configuration.
+2. Select the **Additional configuration** to launch our own configuration (you could skip this step if it doesn't pop up on the screen).
 
 <div align="center" padding=25px>
     <img src="images/skip-tutorial-connector.png" width=75% height=75%>
