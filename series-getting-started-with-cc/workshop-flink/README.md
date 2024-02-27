@@ -99,7 +99,7 @@ An environment contains clusters and its deployed components such as Apache Flin
 </div>
 
 6. Click **Begin Configuration**. 
-7. Choose your preferred Cloud Provider (AWS, GCP, or Azure), region, and availability zone. 
+7. Choose **AWS on region ap-southeast1 (Singapore)**. 
 8. Specify a **Cluster Name**. For the purpose of this lab, any name will work here. 
 
 <div align="center" padding=25px>
